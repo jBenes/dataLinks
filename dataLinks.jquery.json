@@ -1,0 +1,36 @@
+{
+	"name": "dataLinks",
+	"title": "jQuery dataLinks",
+	"description": "Plugin for filling inputs via http links.",
+	"keywords": [
+		"jquery",
+		"dataLinks",
+		"plugins"
+	],
+	"version": "0.0.1",
+	"author": {
+		"name": "Jiri Benes",
+		"email": "benes@kodarna.cz",
+		"url": "https://github.com/jBenes"
+	},
+	"maintainers": [
+		{
+			"name": "Jiri Benes",
+			"email": "benes@kodarna.cz",
+			"url": "https://github.com/jBenes"
+		}
+	],
+	"licenses": [
+		{
+			"type": "MIT",
+			"url": "https://github.com/jBenes/dataLinks/blob/master/README.md"
+		}
+	],
+	"bugs": "https://github.com/jBenes/dataLinks/issues",
+	"homepage": "https://github.com/jBenes/dataLinks",
+	"docs": "https://github.com/jBenes/dataLinks#readme",
+	"download": "https://github.com/jBenes/dataLinks/archive/master.zip",
+	"dependencies": {
+		"jquery": ">=1.4"
+	}
+}

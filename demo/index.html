@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>dataLinks</title>
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+		<script src="../dist/dataLinks.jquery.js"></script>
+	</head>
+	<body>
+		<script>
+			$(function() {
+				$("#element").dataLinks({
+					submit: false
+				});
+			});
+		</script>
+	</body>
+	<div id="element">
+		<a class="data_link" href="whatever" data-target="input[name='test']" data-value="trinact">13</a><br>
+		<a class="data_link" href="whatever" data-target="form input[name='test']" data-value="ctrnact">14</a> 
+	</div>
+	<form action="">
+		<input type="text" name="test">
+	</form>
+</html>
